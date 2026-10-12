@@ -1,0 +1,10 @@
+# Local builds and IDE state
+/build/
+/Debug/
+/Release/
+/.settings/
+# Local backups
+/codex_backup_*/
+*.backup_*
+# Device-specific Wi-Fi credentials; copy the example for local use
+/Core/Inc/wifi_config.h

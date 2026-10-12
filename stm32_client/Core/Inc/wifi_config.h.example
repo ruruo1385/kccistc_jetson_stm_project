@@ -1,0 +1,15 @@
+#ifndef WIFI_CONFIG_H
+#define WIFI_CONFIG_H
+#define WIFI_SSID       "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD   "YOUR_WIFI_PASSWORD"
+#define WIFI_PI_HOST "10.10.16.78"
+#define WIFI_PI_PORT    5000U
+
+/* Copy LOGID/PASSWD from the example that successfully connected.
+   Do not reuse this account while the example is still connected. */
+#define WIFI_LOGIN_ID "UTW_ARD"
+#define WIFI_LOGIN_PASSWORD "YOUR_SERVER_PASSWORD"
+/* Recipient account on the classroom relay server. X disables reports
+   until the Raspberry Pi/Jetson receiving account is agreed on. */
+#define WIFI_REPORT_TO "X"
+#endif
